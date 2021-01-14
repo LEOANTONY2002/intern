@@ -49,33 +49,34 @@
 @media (max-width: 1000px) {
   .photo {
     margin: 20px;
-    width: 137%;
+    width: 400px;
     height: 50vh;
     perspective: 160px;
+    margin-left: -50px;
   }
 
   .dis {
     transform: rotateY(-20deg);
-    width: 800px;
+    width: 100%;
   }
 
   .dis2 {
-    margin-right: 90px;
+    margin-right: 10px;
   }
 
   .sm {
     display: flex;
     flex-wrap: wrap;
     position: absolute;
-    right: 90px;
-    margin-top: 25px;
-    width: 100px;
-    height: 100px;
+    right: 15px;
+    margin-top: 20px;
+    width: 60px;
+    height: 90px;
     opacity: 2;
   }
   .sm > img {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
   }
   .sm > img:nth-child(3) {
     margin-top: -20px;

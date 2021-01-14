@@ -84,6 +84,7 @@ img {
     width: 82vw;
     height: 42vh;
     margin: 20px 0;
+    margin-left: -10px;
   }
   .i-cont {
     width: 82.5vw;
