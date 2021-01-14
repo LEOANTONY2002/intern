@@ -1,0 +1,70 @@
+.header {
+  display: flex;
+  align-items: center;
+  height: 22vh;
+  margin-bottom: 2vw;
+}
+
+.name {
+  display: flex;
+  color: white;
+  font-size: 55px;
+  font-weight: 350;
+  padding: 3vw 3vw 2vw 3vw;
+}
+
+.tick {
+  display: flex;
+  align-items: center;
+}
+
+.tick > img {
+  width: 15px;
+  height: 15px;
+  margin: 2px 0 0 10px;
+}
+
+.border {
+  margin: 20px;
+  border-left: 1px solid white;
+  opacity: 0.3;
+  height: 90px;
+  margin-top: 40px;
+}
+
+.desc {
+  color: white;
+  font-size: 14px;
+  font-weight: 100;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.desc > p {
+  height: 80px;
+  flex: 0.5;
+  width: 20vw;
+}
+
+.desc > div {
+  margin-top: 20px;
+  margin-bottom: -20px;
+  border-bottom: 1px solid white;
+}
+
+@media (max-width: 800px) {
+  .header {
+    margin: auto;
+  }
+  .name {
+    font-size: 34px;
+  }
+  .border {
+    height: 80px;
+  }
+  .desc > p {
+    width: 37vw;
+    font-size: 11px;
+  }
+}

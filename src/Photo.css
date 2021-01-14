@@ -1,0 +1,83 @@
+.photo {
+  width: 100%;
+  perspective: 80px;
+  display: flex;
+  margin-right: 10px;
+  margin-left: -160px;
+  margin-bottom: 10px;
+}
+
+.dis {
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://ak.picdn.net/shutterstock/videos/11752280/thumb/1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  transform-origin: right;
+  transform: rotateY(-5deg);
+  box-shadow: 0 5px 9px 1px black;
+}
+
+.dis2 {
+  margin: auto;
+  width: 10px;
+  height: 100%;
+  transform-origin: left;
+  background-image: url("https://ak.picdn.net/shutterstock/videos/11752280/thumb/1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  transform: rotateY(5deg);
+}
+
+.sm {
+  display: flex;
+  flex-wrap: wrap;
+  width: 120px;
+  position: absolute;
+  right: 17px;
+  margin-top: 30px;
+}
+.sm > img {
+  width: 40px;
+  height: 40px;
+  margin: 3px;
+  background-color: rgb(228, 224, 224);
+  border-radius: 50%;
+}
+
+@media (max-width: 1000px) {
+  .photo {
+    margin: 20px;
+    width: 137%;
+    height: 50vh;
+    perspective: 160px;
+  }
+
+  .dis {
+    transform: rotateY(-20deg);
+    width: 800px;
+  }
+
+  .dis2 {
+    margin-right: 90px;
+  }
+
+  .sm {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    right: 90px;
+    margin-top: 25px;
+    width: 100px;
+    height: 100px;
+    opacity: 2;
+  }
+  .sm > img {
+    width: 30px;
+    height: 30px;
+  }
+  .sm > img:nth-child(3) {
+    margin-top: -20px;
+  }
+}
